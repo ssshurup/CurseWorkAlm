@@ -1,0 +1,24 @@
+﻿<Page x:Class="CurseWorkAlm.Pages.AdmPages.AddEmpP"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CurseWorkAlm.Pages.AdmPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddEmpP" Background="White">
+
+    <Grid>
+        <StackPanel Width="250" Height="240">
+            <TextBlock Text="Имя"  FontSize="14" Margin="5"  HorizontalAlignment="Center"/>
+            <TextBox Text="{Binding name}" Margin="25,0,25,0"/>
+            <TextBlock Text="Телефон" Margin="5" FontSize="14"  HorizontalAlignment="Center"/>
+            <TextBox Text="{Binding phone}" Margin="25,0,25,0"/>
+            <TextBlock Text="Должность"  FontSize="14"  Margin="5" HorizontalAlignment="Center"/>
+            <ComboBox Name="PostCB" DisplayMemberPath="name" Margin="25,0,25,0"/>
+            <Button x:Name="AddBT" Content="Добавить" FontSize="14"  Margin="25,10,25,0" Click="AddBT_Click"/>
+            <Button Name="BackBT" Content="Назад"  FontSize="14" Margin="25,10,25,0" Click="BackBT_Click"/>
+        </StackPanel>
+        
+    </Grid>
+</Page>
