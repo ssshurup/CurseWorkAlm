@@ -14,7 +14,7 @@
             <ColumnDefinition Width="600"/>
         </Grid.ColumnDefinitions>
         <Grid x:Name="LeftBar">
-            <TextBlock x:Name="HelloTB" FontSize="15" Text="Hello, " VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,15,0,0"/>
+            <TextBlock x:Name="HelloTB" FontSize="15" Text="Здравствуйте, " VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,15,0,0"/>
             <StackPanel  Margin="0,50,0,0">
                 <Button Content="Управление записями" FontSize="14" Name="AppListBT" Margin="5" Click="AppListBT_Click" />
                 <Button Content="Выйти"  FontSize="14" Name="LogOut" Margin="5" Click="LogOut_Click"/>

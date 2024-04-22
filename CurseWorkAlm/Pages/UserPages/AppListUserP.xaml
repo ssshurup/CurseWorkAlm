@@ -25,10 +25,10 @@
             <Image Visibility="Collapsed" x:Name="HairIMG" Width="400" Height="400"/>
             <DataGrid x:Name="AppointmentsDG" AutoGenerateColumns="False">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Service" Width="150" Binding="{Binding services.name}"/>
-                    <DataGridTextColumn Header="Employee name" Width="150" Binding="{Binding employee.name}"/>
-                    <DataGridTextColumn Header="Date" Width="150" Binding="{Binding dateAppointment}"/>
-                    <DataGridTextColumn Header="status" Width="150" Binding="{Binding status.name}"/>
+                    <DataGridTextColumn Header="Услуга" Width="150" Binding="{Binding services.name}"/>
+                    <DataGridTextColumn Header="Мастер" Width="150" Binding="{Binding employee.name}"/>
+                    <DataGridTextColumn Header="Дата" Width="150" Binding="{Binding dateAppointment}"/>
+                    <DataGridTextColumn Header="Статус" Width="150" Binding="{Binding status.name}"/>
                 </DataGrid.Columns>
             </DataGrid>
         </Grid>

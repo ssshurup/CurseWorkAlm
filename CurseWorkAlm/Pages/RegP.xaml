@@ -10,21 +10,21 @@
 
     <Grid>
         <Grid Width="250" Height="250">
-            <TextBlock Text="Registration" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top"/>
-            <TextBlock Text="Login" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,30,0,0"/>
+            <TextBlock Text="Регистрация" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Text="Логин" VerticalAlignment="Top" FontSize="14"  HorizontalAlignment="Left" Margin="10,30,0,0"/>
             <TextBox Text="{Binding login}" VerticalAlignment="Top" Margin="100,30,10,0"/>
 
-            <TextBlock Text="Password" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,60,0,0"/>
+            <TextBlock Text="Пароль" VerticalAlignment="Top"  FontSize="14" HorizontalAlignment="Left" Margin="10,60,0,0"/>
             <TextBox Text="{Binding password}" VerticalAlignment="Top" Margin="100,60,10,0"/>
 
-            <TextBlock Text="Name" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,90,0,0"/>
+            <TextBlock Text="Имя" VerticalAlignment="Top"  FontSize="14" HorizontalAlignment="Left" Margin="10,90,0,0"/>
             <TextBox Text="{Binding name}" VerticalAlignment="Top" Margin="100,90,10,0"/>
 
-            <TextBlock Text="Phone" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10,120,0,0"/>
+            <TextBlock Text="Телефон" VerticalAlignment="Top"  FontSize="14" HorizontalAlignment="Left" Margin="10,120,0,0"/>
             <TextBox Text="{Binding phone}" VerticalAlignment="Top" Margin="100,120,10,0"/>
 
-            <Button x:Name="RegBT" Content="Register" VerticalAlignment="Bottom" Margin="20,0,20,50" Click="RegBT_Click"/>
-            <Button x:Name="BackBT" Content="Back" VerticalAlignment="Bottom" Margin="20,0,20,20" Click="BackBT_Click"/>
+            <Button x:Name="RegBT" Content="Зарегистрироваться" FontSize="14"  VerticalAlignment="Bottom" Margin="20,0,20,50" Click="RegBT_Click"/>
+            <Button x:Name="BackBT" Content="Назад" FontSize="14"  VerticalAlignment="Bottom" Margin="20,0,20,20" Click="BackBT_Click"/>
 
         </Grid>
     </Grid>

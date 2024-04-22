@@ -15,8 +15,8 @@
         </Grid.ColumnDefinitions>
         <Grid x:Name="LeftBar">
             <StackPanel>
-                <Button x:Name="AdBT" FontSize="14" Content="Список сотрудников" Margin="10,10,10,0" Click="AdBT_Click"/>
-                <Button x:Name="UsBT"  FontSize="14" Content="Список Пользователей" Margin="10,10,10,0" Click="UsBT_Click"/>
+                <Button x:Name="AdBT" FontSize="14" Content="Список администраторов" Margin="10,10,10,0" Click="AdBT_Click"/>
+                <Button x:Name="UsBT"  FontSize="14" Content="Список сотрудников" Margin="10,10,10,0" Click="UsBT_Click"/>
                 <Button x:Name="AppBT"  FontSize="14" Content="Управление заявками" Margin="10,10,10,0" Click="AppBT_Click"/>
                 <Button x:Name="ScheduleP" FontSize="14"  Content="Изменить график" Margin="10,10,10,0" Click="ScheduleP_Click" />
             </StackPanel>
